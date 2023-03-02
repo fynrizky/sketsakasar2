@@ -10,7 +10,7 @@ type OnBoardingProps = OnBoardingInterface;
 
 const OnBoarding: React.FC<OnBoardingProps> = ({ onboardingNumber }) => {
   const [currentPage, setCurrentPage] = useState<number>(onboardingNumber);
-
+  
   const onboarding = [
     { title: 'Page 1', content: 'On1', page: 1 },
     { title: 'Page 2', content: 'On2', page: 2 },
